@@ -5,5 +5,4 @@ package com.hsarme.shada.shada121taskmngr2017;
  */
 
 public class Muhammed {
-    bhbgd
 }
