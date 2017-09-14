@@ -31,17 +31,17 @@ public class MainActivity extends AppCompatActivity {
             break;
         case R.id.mnItmScreen2:
             Toast.makeText(getBaseContext(), "Hi...Screen2", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(this,screen.class);
+            intent = new Intent(this, screen.class);
             startActivity(intent);
             break;
         case R.id.mnItmScreen3:
             Toast.makeText(getBaseContext(), "Hi...Screen3", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(this,screen.class);
+            intent = new Intent(this, screen.class);
             startActivity(intent);
             break;
         case R.id.mnItmScreen4:
             Toast.makeText(getBaseContext(), "Hi...Screen4", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(this,screen.class);
+            intent = new Intent(this,screen.class);
             startActivity(intent);
             break;
     }
