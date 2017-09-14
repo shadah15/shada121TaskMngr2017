@@ -1,5 +1,6 @@
 package com.hsarme.shada.shada121taskmngr2017;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,15 +26,23 @@ public class MainActivity extends AppCompatActivity {
     {
         case R.id.mnItmScreen1:
             Toast.makeText(getBaseContext(), "Hi...Screen1", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this,screen.class);
+            startActivity(intent);
             break;
         case R.id.mnItmScreen2:
             Toast.makeText(getBaseContext(), "Hi...Screen2", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this,screen.class);
+            startActivity(intent);
             break;
         case R.id.mnItmScreen3:
             Toast.makeText(getBaseContext(), "Hi...Screen3", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this,screen.class);
+            startActivity(intent);
             break;
         case R.id.mnItmScreen4:
             Toast.makeText(getBaseContext(), "Hi...Screen4", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this,screen.class);
+            startActivity(intent);
             break;
     }
     return true;
